@@ -1,0 +1,31 @@
+﻿imagem;tipo;arquitetura;neuronios;erro_quantizacao;erro_topologico;tempo_s;parametros
+image1;som;4x4;16;0.14795;0.0086;0.14;linhas=4 colunas=4 n_iteracoes=8000 taxa_inicial=0.5 taxa_final=0.01 raio_inicial=2.0 raio_final=0.5 semente=42
+image1;som;8x8;64;0.066647;0.013;0.68;linhas=8 colunas=8 n_iteracoes=32000 taxa_inicial=0.5 taxa_final=0.01 raio_inicial=4.0 raio_final=0.5 semente=42
+image1;som;16x16;256;0.030835;0.0303;3.66;linhas=16 colunas=16 n_iteracoes=128000 taxa_inicial=0.5 taxa_final=0.01 raio_inicial=8.0 raio_final=0.5 semente=42
+image1;gng;16;16;0.116243;0.0017;0.23;max_neuronios=16 n_iteracoes=8000 intervalo_insercao=100 eps_vencedor=0.2 eps_vizinho=0.006 alpha=0.5 beta=0.0005 idade_maxima=50 semente=42
+image1;gng;64;64;0.048724;0.0082;0.97;max_neuronios=64 n_iteracoes=32000 intervalo_insercao=100 eps_vencedor=0.2 eps_vizinho=0.006 alpha=0.5 beta=0.0005 idade_maxima=50 semente=42
+image1;gng;256;256;0.023787;0.0078;4.63;max_neuronios=256 n_iteracoes=128000 intervalo_insercao=100 eps_vencedor=0.2 eps_vizinho=0.006 alpha=0.5 beta=0.0005 idade_maxima=50 semente=42
+image2;som;4x4;16;0.133378;0.0003;0.13;linhas=4 colunas=4 n_iteracoes=8000 taxa_inicial=0.5 taxa_final=0.01 raio_inicial=2.0 raio_final=0.5 semente=42
+image2;som;8x8;64;0.059451;0.0121;0.6;linhas=8 colunas=8 n_iteracoes=32000 taxa_inicial=0.5 taxa_final=0.01 raio_inicial=4.0 raio_final=0.5 semente=42
+image2;som;16x16;256;0.029039;0.02;3.99;linhas=16 colunas=16 n_iteracoes=128000 taxa_inicial=0.5 taxa_final=0.01 raio_inicial=8.0 raio_final=0.5 semente=42
+image2;gng;16;16;0.108244;0.0056;0.23;max_neuronios=16 n_iteracoes=8000 intervalo_insercao=100 eps_vencedor=0.2 eps_vizinho=0.006 alpha=0.5 beta=0.0005 idade_maxima=50 semente=42
+image2;gng;64;64;0.046046;0.0098;0.99;max_neuronios=64 n_iteracoes=32000 intervalo_insercao=100 eps_vencedor=0.2 eps_vizinho=0.006 alpha=0.5 beta=0.0005 idade_maxima=50 semente=42
+image2;gng;256;256;0.023772;0.0082;4.45;max_neuronios=256 n_iteracoes=128000 intervalo_insercao=100 eps_vencedor=0.2 eps_vizinho=0.006 alpha=0.5 beta=0.0005 idade_maxima=50 semente=42
+image3;som;4x4;16;0.114513;0.0019;0.13;linhas=4 colunas=4 n_iteracoes=8000 taxa_inicial=0.5 taxa_final=0.01 raio_inicial=2.0 raio_final=0.5 semente=42
+image3;som;8x8;64;0.048449;0.0055;0.57;linhas=8 colunas=8 n_iteracoes=32000 taxa_inicial=0.5 taxa_final=0.01 raio_inicial=4.0 raio_final=0.5 semente=42
+image3;som;16x16;256;0.023031;0.0294;3.76;linhas=16 colunas=16 n_iteracoes=128000 taxa_inicial=0.5 taxa_final=0.01 raio_inicial=8.0 raio_final=0.5 semente=42
+image3;gng;16;16;0.091462;0.0014;0.24;max_neuronios=16 n_iteracoes=8000 intervalo_insercao=100 eps_vencedor=0.2 eps_vizinho=0.006 alpha=0.5 beta=0.0005 idade_maxima=50 semente=42
+image3;gng;64;64;0.038667;0.0043;1.03;max_neuronios=64 n_iteracoes=32000 intervalo_insercao=100 eps_vencedor=0.2 eps_vizinho=0.006 alpha=0.5 beta=0.0005 idade_maxima=50 semente=42
+image3;gng;256;256;0.019508;0.0075;4.76;max_neuronios=256 n_iteracoes=128000 intervalo_insercao=100 eps_vencedor=0.2 eps_vizinho=0.006 alpha=0.5 beta=0.0005 idade_maxima=50 semente=42
+image4;som;4x4;16;0.074589;0.0001;0.16;linhas=4 colunas=4 n_iteracoes=8000 taxa_inicial=0.5 taxa_final=0.01 raio_inicial=2.0 raio_final=0.5 semente=42
+image4;som;8x8;64;0.034584;0.006;0.68;linhas=8 colunas=8 n_iteracoes=32000 taxa_inicial=0.5 taxa_final=0.01 raio_inicial=4.0 raio_final=0.5 semente=42
+image4;som;16x16;256;0.019276;0.0221;4.09;linhas=16 colunas=16 n_iteracoes=128000 taxa_inicial=0.5 taxa_final=0.01 raio_inicial=8.0 raio_final=0.5 semente=42
+image4;gng;16;16;0.055311;0.004;0.27;max_neuronios=16 n_iteracoes=8000 intervalo_insercao=100 eps_vencedor=0.2 eps_vizinho=0.006 alpha=0.5 beta=0.0005 idade_maxima=50 semente=42
+image4;gng;64;64;0.027917;0.0071;1.48;max_neuronios=64 n_iteracoes=32000 intervalo_insercao=100 eps_vencedor=0.2 eps_vizinho=0.006 alpha=0.5 beta=0.0005 idade_maxima=50 semente=42
+image4;gng;256;256;0.015905;0.0108;4.74;max_neuronios=256 n_iteracoes=128000 intervalo_insercao=100 eps_vencedor=0.2 eps_vizinho=0.006 alpha=0.5 beta=0.0005 idade_maxima=50 semente=42
+image5;som;4x4;16;0.105974;0.0015;0.15;linhas=4 colunas=4 n_iteracoes=8000 taxa_inicial=0.5 taxa_final=0.01 raio_inicial=2.0 raio_final=0.5 semente=42
+image5;som;8x8;64;0.048791;0.0019;0.6;linhas=8 colunas=8 n_iteracoes=32000 taxa_inicial=0.5 taxa_final=0.01 raio_inicial=4.0 raio_final=0.5 semente=42
+image5;som;16x16;256;0.02236;0.0193;3.73;linhas=16 colunas=16 n_iteracoes=128000 taxa_inicial=0.5 taxa_final=0.01 raio_inicial=8.0 raio_final=0.5 semente=42
+image5;gng;16;16;0.08451;0.0029;0.26;max_neuronios=16 n_iteracoes=8000 intervalo_insercao=100 eps_vencedor=0.2 eps_vizinho=0.006 alpha=0.5 beta=0.0005 idade_maxima=50 semente=42
+image5;gng;64;64;0.041314;0.0073;1.04;max_neuronios=64 n_iteracoes=32000 intervalo_insercao=100 eps_vencedor=0.2 eps_vizinho=0.006 alpha=0.5 beta=0.0005 idade_maxima=50 semente=42
+image5;gng;256;256;0.019424;0.0078;4.98;max_neuronios=256 n_iteracoes=128000 intervalo_insercao=100 eps_vencedor=0.2 eps_vizinho=0.006 alpha=0.5 beta=0.0005 idade_maxima=50 semente=42

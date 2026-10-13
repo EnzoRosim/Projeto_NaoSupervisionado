@@ -1,0 +1,88 @@
+====================================================================================================
+ÚLTIMA RUN - 09/10/2026 23:40:43
+Imagens: image1, image2, image3, image4, image5
+Redes: SOM, GNG | lado máximo das imagens: 128px | total: 30 redes
+====================================================================================================
+
+>>> image1: 100x100 px, 10000 pixels, 8908 cores distintas
+[ 1/30] SOM   4x4 | neurônios= 16 | EQ=0.1479 | ET=0.0086 |   0.1s
+        parâmetros: linhas=4 colunas=4 n_iteracoes=8000 taxa_inicial=0.5 taxa_final=0.01 raio_inicial=2.0 raio_final=0.5 semente=42
+[ 2/30] SOM   8x8 | neurônios= 64 | EQ=0.0666 | ET=0.0130 |   0.7s
+        parâmetros: linhas=8 colunas=8 n_iteracoes=32000 taxa_inicial=0.5 taxa_final=0.01 raio_inicial=4.0 raio_final=0.5 semente=42
+[ 3/30] SOM 16x16 | neurônios=256 | EQ=0.0308 | ET=0.0303 |   3.7s
+        parâmetros: linhas=16 colunas=16 n_iteracoes=128000 taxa_inicial=0.5 taxa_final=0.01 raio_inicial=8.0 raio_final=0.5 semente=42
+[ 4/30] GNG    16 | neurônios= 16 | EQ=0.1162 | ET=0.0017 |   0.2s
+        parâmetros: max_neuronios=16 n_iteracoes=8000 intervalo_insercao=100 eps_vencedor=0.2 eps_vizinho=0.006 alpha=0.5 beta=0.0005 idade_maxima=50 semente=42
+[ 5/30] GNG    64 | neurônios= 64 | EQ=0.0487 | ET=0.0082 |   1.0s
+        parâmetros: max_neuronios=64 n_iteracoes=32000 intervalo_insercao=100 eps_vencedor=0.2 eps_vizinho=0.006 alpha=0.5 beta=0.0005 idade_maxima=50 semente=42
+[ 6/30] GNG   256 | neurônios=256 | EQ=0.0238 | ET=0.0078 |   4.6s
+        parâmetros: max_neuronios=256 n_iteracoes=128000 intervalo_insercao=100 eps_vencedor=0.2 eps_vizinho=0.006 alpha=0.5 beta=0.0005 idade_maxima=50 semente=42
+
+>>> image2: 100x100 px, 10000 pixels, 8187 cores distintas
+[ 7/30] SOM   4x4 | neurônios= 16 | EQ=0.1334 | ET=0.0003 |   0.1s
+        parâmetros: linhas=4 colunas=4 n_iteracoes=8000 taxa_inicial=0.5 taxa_final=0.01 raio_inicial=2.0 raio_final=0.5 semente=42
+[ 8/30] SOM   8x8 | neurônios= 64 | EQ=0.0595 | ET=0.0121 |   0.6s
+        parâmetros: linhas=8 colunas=8 n_iteracoes=32000 taxa_inicial=0.5 taxa_final=0.01 raio_inicial=4.0 raio_final=0.5 semente=42
+[ 9/30] SOM 16x16 | neurônios=256 | EQ=0.0290 | ET=0.0200 |   4.0s
+        parâmetros: linhas=16 colunas=16 n_iteracoes=128000 taxa_inicial=0.5 taxa_final=0.01 raio_inicial=8.0 raio_final=0.5 semente=42
+[10/30] GNG    16 | neurônios= 16 | EQ=0.1082 | ET=0.0056 |   0.2s
+        parâmetros: max_neuronios=16 n_iteracoes=8000 intervalo_insercao=100 eps_vencedor=0.2 eps_vizinho=0.006 alpha=0.5 beta=0.0005 idade_maxima=50 semente=42
+[11/30] GNG    64 | neurônios= 64 | EQ=0.0460 | ET=0.0098 |   1.0s
+        parâmetros: max_neuronios=64 n_iteracoes=32000 intervalo_insercao=100 eps_vencedor=0.2 eps_vizinho=0.006 alpha=0.5 beta=0.0005 idade_maxima=50 semente=42
+[12/30] GNG   256 | neurônios=256 | EQ=0.0238 | ET=0.0082 |   4.5s
+        parâmetros: max_neuronios=256 n_iteracoes=128000 intervalo_insercao=100 eps_vencedor=0.2 eps_vizinho=0.006 alpha=0.5 beta=0.0005 idade_maxima=50 semente=42
+
+>>> image3: 100x100 px, 10000 pixels, 7952 cores distintas
+[13/30] SOM   4x4 | neurônios= 16 | EQ=0.1145 | ET=0.0019 |   0.1s
+        parâmetros: linhas=4 colunas=4 n_iteracoes=8000 taxa_inicial=0.5 taxa_final=0.01 raio_inicial=2.0 raio_final=0.5 semente=42
+[14/30] SOM   8x8 | neurônios= 64 | EQ=0.0484 | ET=0.0055 |   0.6s
+        parâmetros: linhas=8 colunas=8 n_iteracoes=32000 taxa_inicial=0.5 taxa_final=0.01 raio_inicial=4.0 raio_final=0.5 semente=42
+[15/30] SOM 16x16 | neurônios=256 | EQ=0.0230 | ET=0.0294 |   3.8s
+        parâmetros: linhas=16 colunas=16 n_iteracoes=128000 taxa_inicial=0.5 taxa_final=0.01 raio_inicial=8.0 raio_final=0.5 semente=42
+[16/30] GNG    16 | neurônios= 16 | EQ=0.0915 | ET=0.0014 |   0.2s
+        parâmetros: max_neuronios=16 n_iteracoes=8000 intervalo_insercao=100 eps_vencedor=0.2 eps_vizinho=0.006 alpha=0.5 beta=0.0005 idade_maxima=50 semente=42
+[17/30] GNG    64 | neurônios= 64 | EQ=0.0387 | ET=0.0043 |   1.0s
+        parâmetros: max_neuronios=64 n_iteracoes=32000 intervalo_insercao=100 eps_vencedor=0.2 eps_vizinho=0.006 alpha=0.5 beta=0.0005 idade_maxima=50 semente=42
+[18/30] GNG   256 | neurônios=256 | EQ=0.0195 | ET=0.0075 |   4.8s
+        parâmetros: max_neuronios=256 n_iteracoes=128000 intervalo_insercao=100 eps_vencedor=0.2 eps_vizinho=0.006 alpha=0.5 beta=0.0005 idade_maxima=50 semente=42
+
+>>> image4: 100x100 px, 10000 pixels, 7534 cores distintas
+[19/30] SOM   4x4 | neurônios= 16 | EQ=0.0746 | ET=0.0001 |   0.2s
+        parâmetros: linhas=4 colunas=4 n_iteracoes=8000 taxa_inicial=0.5 taxa_final=0.01 raio_inicial=2.0 raio_final=0.5 semente=42
+[20/30] SOM   8x8 | neurônios= 64 | EQ=0.0346 | ET=0.0060 |   0.7s
+        parâmetros: linhas=8 colunas=8 n_iteracoes=32000 taxa_inicial=0.5 taxa_final=0.01 raio_inicial=4.0 raio_final=0.5 semente=42
+[21/30] SOM 16x16 | neurônios=256 | EQ=0.0193 | ET=0.0221 |   4.1s
+        parâmetros: linhas=16 colunas=16 n_iteracoes=128000 taxa_inicial=0.5 taxa_final=0.01 raio_inicial=8.0 raio_final=0.5 semente=42
+[22/30] GNG    16 | neurônios= 16 | EQ=0.0553 | ET=0.0040 |   0.3s
+        parâmetros: max_neuronios=16 n_iteracoes=8000 intervalo_insercao=100 eps_vencedor=0.2 eps_vizinho=0.006 alpha=0.5 beta=0.0005 idade_maxima=50 semente=42
+[23/30] GNG    64 | neurônios= 64 | EQ=0.0279 | ET=0.0071 |   1.5s
+        parâmetros: max_neuronios=64 n_iteracoes=32000 intervalo_insercao=100 eps_vencedor=0.2 eps_vizinho=0.006 alpha=0.5 beta=0.0005 idade_maxima=50 semente=42
+[24/30] GNG   256 | neurônios=256 | EQ=0.0159 | ET=0.0108 |   4.7s
+        parâmetros: max_neuronios=256 n_iteracoes=128000 intervalo_insercao=100 eps_vencedor=0.2 eps_vizinho=0.006 alpha=0.5 beta=0.0005 idade_maxima=50 semente=42
+
+>>> image5: 100x100 px, 10000 pixels, 6270 cores distintas
+[25/30] SOM   4x4 | neurônios= 16 | EQ=0.1060 | ET=0.0015 |   0.1s
+        parâmetros: linhas=4 colunas=4 n_iteracoes=8000 taxa_inicial=0.5 taxa_final=0.01 raio_inicial=2.0 raio_final=0.5 semente=42
+[26/30] SOM   8x8 | neurônios= 64 | EQ=0.0488 | ET=0.0019 |   0.6s
+        parâmetros: linhas=8 colunas=8 n_iteracoes=32000 taxa_inicial=0.5 taxa_final=0.01 raio_inicial=4.0 raio_final=0.5 semente=42
+[27/30] SOM 16x16 | neurônios=256 | EQ=0.0224 | ET=0.0193 |   3.7s
+        parâmetros: linhas=16 colunas=16 n_iteracoes=128000 taxa_inicial=0.5 taxa_final=0.01 raio_inicial=8.0 raio_final=0.5 semente=42
+[28/30] GNG    16 | neurônios= 16 | EQ=0.0845 | ET=0.0029 |   0.3s
+        parâmetros: max_neuronios=16 n_iteracoes=8000 intervalo_insercao=100 eps_vencedor=0.2 eps_vizinho=0.006 alpha=0.5 beta=0.0005 idade_maxima=50 semente=42
+[29/30] GNG    64 | neurônios= 64 | EQ=0.0413 | ET=0.0073 |   1.0s
+        parâmetros: max_neuronios=64 n_iteracoes=32000 intervalo_insercao=100 eps_vencedor=0.2 eps_vizinho=0.006 alpha=0.5 beta=0.0005 idade_maxima=50 semente=42
+[30/30] GNG   256 | neurônios=256 | EQ=0.0194 | ET=0.0078 |   5.0s
+        parâmetros: max_neuronios=256 n_iteracoes=128000 intervalo_insercao=100 eps_vencedor=0.2 eps_vizinho=0.006 alpha=0.5 beta=0.0005 idade_maxima=50 semente=42
+
+====================================================================================================
+RESUMO: média por rede sobre 5 imagem(ns)
+====================================================================================================
+rede            EQ médio    ET médio   tempo médio
+SOM 4x4           0.1153      0.0025          0.1s
+SOM 8x8           0.0516      0.0077          0.6s
+SOM 16x16         0.0249      0.0242          3.8s
+GNG 16            0.0912      0.0031          0.2s
+GNG 64            0.0405      0.0073          1.1s
+GNG 256           0.0205      0.0084          4.7s
+
+Concluído em 64s (1.1 min).
